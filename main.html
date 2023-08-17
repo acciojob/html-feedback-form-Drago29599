@@ -7,18 +7,22 @@
 </head>
 
 <body>
-	<form>
-		<label for="name">Name</label><br>
-		<input type="text" id="name" name="name" minlength="3" maxlength="50" required ><br>
-		<label for="portfolio">Portfolio</label><br>
-		<input type="url" id="pf" name="portfolio" required ><br>
-		<label for="favColor">Color</label><br>
-		<input type="color" id="clr" required ><br>
-		<label for="likness">Name</label><br>
-		<input type="range" id="likness" min="1" max="100" required ><br>
-		
-		
-	</form>
+	<form method="POST">
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name" minlength="3" maxlength="50" required><br>
+
+    <label for="portfolio">Portfolio</label><br>
+    <input type="url" id="portfolio" name="portfolio"><br>
+
+    <label for="favColor">Color</label><br>
+    <input type="color" id="favColor" name="color"><br>
+
+    <label for="likness">Likeness</label><br>
+    <input type="range" id="likness" name="likness" min="1" max="100"><br>
+
+    
+</form>
+
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
